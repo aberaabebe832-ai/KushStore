@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KushShop</title>
 
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 id="shopName">KushShop</h1>
+
+    <img id="productImage"
+    src="https://picsum.photos/500"
+    alt="Product">
+
+    <h2 id="productName">
+        Premium Product
+    </h2>
+
+    <p id="price">
+        2500 Birr
+    </p>
+
+    <p id="description">
+        High quality product with fast delivery.
+    </p>
+
+    <label>Color</label>
+
+    <select id="color">
+        <option>Black</option>
+        <option>White</option>
+        <option>Blue</option>
+    </select>
+
+    <label>Delivery City</label>
+
+    <select id="city">
+        <option>Addis Ababa</option>
+        <option>Adama</option>
+        <option>Hawassa</option>
+    </select>
+
+    <button onclick="orderNow()">
+        Order Now
+    </button>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+  </html>
